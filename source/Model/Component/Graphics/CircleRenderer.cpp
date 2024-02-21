@@ -1,4 +1,4 @@
-#include "CircleRenderer.h"
+#include "CircleRenderer.hpp"
 
 void CircleRenderer::Initialize(float radius) {
     shape = sf::CircleShape(radius);

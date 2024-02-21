@@ -1,5 +1,5 @@
 #include <algorithm>
-#include "GameObject.h"
+#include "GameObject.hpp"
 
 std::vector<GameObject*> GameObject::gameObjects;
 

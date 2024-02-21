@@ -1,4 +1,4 @@
-#include "Input.h"
+#include "Input.hpp"
 
 int Input::VerticalAxis;
 int Input::HorizontalAxis;

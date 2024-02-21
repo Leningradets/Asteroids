@@ -1,5 +1,6 @@
-#include "Graphics.h"
-#include "../../Model/Component/Graphics/Renderer.h"
+#include "Graphics.hpp"
+#include "../../Model/Component/Graphics/Renderer.hpp"
+#include "../../Model/Time.hpp"
 
 std::vector<Renderer*> Graphics::renderers;
 

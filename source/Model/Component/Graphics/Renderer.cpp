@@ -1,5 +1,5 @@
-#include "Renderer.h"
-#include "../../../View/Graphics/Graphics.h"
+#include "Renderer.hpp"
+#include "../../../View/Graphics/Graphics.hpp"
 
 Renderer::Renderer() : Component(){
     Graphics::AddRenderer(this);

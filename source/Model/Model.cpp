@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Model.h"
-#include "GameObject/GameObject.h"
+#include "Model.hpp"
+#include "GameObject/GameObject.hpp"
 
 Model::Model() : physics()
 {

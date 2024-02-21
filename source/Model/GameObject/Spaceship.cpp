@@ -1,8 +1,8 @@
 #include <iostream>
-#include "Spaceship.h"
-#include "../Component/Graphics/DrawableRenderer.h"
-#include "../Component/Move.h"
-#include "../Component/Phisics/Rigidbody.h"
+#include "Spaceship.hpp"
+#include "../Component/Graphics/DrawableRenderer.hpp"
+#include "../Component/Move.hpp"
+#include "../Component/Phisics/Rigidbody.hpp"
 
 void Spaceship::Awake() {
     auto* shape = new sf::VertexArray(sf::LineStrip, 5);
@@ -12,8 +12,8 @@ void Spaceship::Awake() {
     (*shape)[3] = sf::Vector2f(-20, 20);
     (*shape)[4] = sf::Vector2f(0, -30);
     this->AddComponent(new DrawableRenderer(shape));
-    this->AddComponent(new Move(10,0.1));
-    this->AddComponent(new Rigidbody(10000));
+    this->AddComponent(new Move(100,1));
+    this->AddComponent(new Rigidbody(1));
     transform->position = Vector2D(400,300);
     GameObject::Awake();
 }

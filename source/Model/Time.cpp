@@ -1,4 +1,4 @@
-#include "Time.h"
+#include "Time.hpp"
 
 float Time::timeScale = 1;
 float Time::deltaTime;

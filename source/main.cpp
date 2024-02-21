@@ -1,11 +1,11 @@
-#include "View/View.h"
-#include "Controller/Controller.h"
-#include "Model/Model.h"
-#include "Game.h"
+#include "View/View.hpp"
+#include "Controller/Controller.hpp"
+#include "Model/Model.hpp"
+#include "Game.hpp"
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(800,600),"Asteroids");
+    sf::RenderWindow window{sf::VideoMode(800,600),"Asteroids"};
 
     Game game(window);
     game.Run();

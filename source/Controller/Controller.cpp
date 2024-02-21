@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Controller.h"
+#include "Controller.hpp"
 
 Controller::Controller(sf::RenderWindow &window) : window(window){
     std::cout << "Controller Created" << std::endl;

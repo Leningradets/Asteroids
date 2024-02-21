@@ -1,7 +1,8 @@
 #include <iostream>
-#include "Game.h"
-#include "Model/GameObject/Spaceship.h"
-#include "Model/Time.h"
+#include <sstream>
+#include "Game.hpp"
+#include "Model/GameObject/Spaceship.hpp"
+#include "Model/Time.hpp"
 
 Game::Game(sf::RenderWindow &window) : window(window) {
     std::cout << "Game created" << std::endl;
@@ -23,6 +24,7 @@ void Game::Run() {
     Time::Reset();
     while (window.isOpen())
     {
+        Time::Reset();
         float deltaTime = Time::deltaTime;
         controller->Update();
         model->Update(deltaTime);

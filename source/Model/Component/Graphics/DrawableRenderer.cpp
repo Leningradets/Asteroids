@@ -1,4 +1,4 @@
-#include "DrawableRenderer.h"
+#include "DrawableRenderer.hpp"
 
 DrawableRenderer::DrawableRenderer(sf::Drawable *drawable) : Renderer(){
     this->drawable = drawable;

@@ -1,6 +1,6 @@
-#include "Move.h"
-#include "../../Controller/Input.h"
-#include "Phisics/Rigidbody.h"
+#include "Move.hpp"
+#include "../../Controller/Input.hpp"
+#include "Phisics/Rigidbody.hpp"
 
 void Move::Update(float deltaTime) {
     auto* rigidbody = gameObject->GetComponent<Rigidbody>();
@@ -12,4 +12,4 @@ void Move::Update(float deltaTime) {
     rigidbody->AddTorque(torque * Input::HorizontalAxis, ForceType::Force);
 }
 
-Move::Move(float speed, float torque) : force(speed), torque(torque) {}
+Move::Move(float force, float torque) : force(force), torque(torque) {}

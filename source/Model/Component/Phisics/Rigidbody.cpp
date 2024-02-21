@@ -1,6 +1,6 @@
-#include "Rigidbody.h"
-#include "../../Time.h"
-#include "../../Physics/Physics.h"
+#include "Rigidbody.hpp"
+#include "../../Time.hpp"
+#include "../../Physics/Physics.hpp"
 
 Rigidbody::Rigidbody(float mass) : Component(), mass(mass){
     Physics::AddRigidbody(this);

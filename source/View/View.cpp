@@ -1,5 +1,5 @@
 #include <iostream>
-#include "View.h"
+#include "View.hpp"
 
 View::View(sf::RenderWindow &window) : window(window) {
     std::cout << "View Created" << std::endl;

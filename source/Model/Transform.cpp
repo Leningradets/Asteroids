@@ -1,5 +1,5 @@
 #include <cmath>
-#include "Transform.h"
+#include "Transform.hpp"
 
 Transform::Transform() : position(0,0), rotation(0){}
 

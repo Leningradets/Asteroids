@@ -7,15 +7,15 @@
 		{"id":"582d509d27d2b812","type":"group","x":-300,"y":320,"width":340,"height":280,"color":"5","label":"Graphics Update"},
 		{"id":"e7d301fc55b65606","type":"text","text":"Collisions Update","x":-273,"y":30,"width":286,"height":60,"color":"1"},
 		{"id":"c8c1e45bb4199ad4","type":"text","text":"Collisions Callbacks","x":-273,"y":120,"width":286,"height":60,"color":"1"},
-		{"id":"236bb4aa8d7ffb5c","type":"text","text":"","x":220,"y":130,"width":50,"height":50},
+		{"id":"5711b5d545146e23","type":"text","text":"Background Render","x":-273,"y":340,"width":286,"height":60,"color":"5"},
+		{"id":"152d4e61d5cd9833","type":"text","text":"GameObjects Render","x":-273,"y":430,"width":286,"height":60,"color":"5"},
+		{"id":"04792c6e8c057ff3","type":"text","text":"UI Render","x":-273,"y":520,"width":286,"height":60,"color":"5"},
 		{"id":"ebd922f2651b8262","type":"text","text":"Input Update","x":-300,"y":-360,"width":340,"height":60,"color":"4"},
 		{"id":"7eaf2004884d5258","type":"text","text":"GameObjects Update","x":-300,"y":-200,"width":340,"height":60,"color":"1"},
 		{"id":"346ab250ec4686db","type":"text","text":"Rigidbodies Update","x":-273,"y":-60,"width":286,"height":60,"color":"1"},
 		{"id":"3f3027b7213189df","type":"text","text":"Audio Update","x":-300,"y":640,"width":340,"height":60,"color":"5"},
-		{"id":"5711b5d545146e23","type":"text","text":"Background Render","x":-273,"y":340,"width":286,"height":60,"color":"5"},
-		{"id":"152d4e61d5cd9833","type":"text","text":"GameObjects Render","x":-273,"y":430,"width":286,"height":60,"color":"5"},
-		{"id":"04792c6e8c057ff3","type":"text","text":"UI Render","x":-273,"y":520,"width":286,"height":60,"color":"5"},
-		{"id":"5e837e2985792b29","type":"text","text":"Game Initialization","x":-300,"y":-480,"width":340,"height":60,"color":"3"}
+		{"id":"5e837e2985792b29","type":"text","text":"Game Initialization","x":-300,"y":-480,"width":340,"height":60,"color":"3"},
+		{"id":"236bb4aa8d7ffb5c","type":"text","text":"","x":160,"y":130,"width":50,"height":50}
 	],
 	"edges":[
 		{"id":"d1b543d887370249","fromNode":"346ab250ec4686db","fromSide":"bottom","toNode":"e7d301fc55b65606","toSide":"top"},

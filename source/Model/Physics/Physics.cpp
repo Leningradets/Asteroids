@@ -1,5 +1,5 @@
 #include <algorithm>
-#include "Physics.h"
+#include "Physics.hpp"
 
 std::vector<Rigidbody*> Physics::rigidbodies;
 
