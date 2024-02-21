@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"8d7aeb8bc74888d8","type":"group","x":-340,"y":-380,"width":420,"height":1120,"label":"Game loop"},
+		{"id":"0a7b87f8117aaa8d","type":"group","x":-320,"y":260,"width":380,"height":460,"label":"View Update"},
+		{"id":"36d36b4416a4c974","type":"group","x":-320,"y":-240,"width":380,"height":460,"label":"Model Update"},
+		{"id":"f93124520978ff68","type":"group","x":-300,"y":-80,"width":340,"height":280,"color":"1","label":"PhysicsUpdate"},
+		{"id":"582d509d27d2b812","type":"group","x":-300,"y":320,"width":340,"height":280,"color":"5","label":"Graphics Update"},
+		{"id":"e7d301fc55b65606","type":"text","text":"Collisions Update","x":-273,"y":30,"width":286,"height":60,"color":"1"},
+		{"id":"c8c1e45bb4199ad4","type":"text","text":"Collisions Callbacks","x":-273,"y":120,"width":286,"height":60,"color":"1"},
+		{"id":"236bb4aa8d7ffb5c","type":"text","text":"","x":220,"y":130,"width":50,"height":50},
+		{"id":"ebd922f2651b8262","type":"text","text":"Input Update","x":-300,"y":-360,"width":340,"height":60,"color":"4"},
+		{"id":"7eaf2004884d5258","type":"text","text":"GameObjects Update","x":-300,"y":-200,"width":340,"height":60,"color":"1"},
+		{"id":"346ab250ec4686db","type":"text","text":"Rigidbodies Update","x":-273,"y":-60,"width":286,"height":60,"color":"1"},
+		{"id":"3f3027b7213189df","type":"text","text":"Audio Update","x":-300,"y":640,"width":340,"height":60,"color":"5"},
+		{"id":"5711b5d545146e23","type":"text","text":"Background Render","x":-273,"y":340,"width":286,"height":60,"color":"5"},
+		{"id":"152d4e61d5cd9833","type":"text","text":"GameObjects Render","x":-273,"y":430,"width":286,"height":60,"color":"5"},
+		{"id":"04792c6e8c057ff3","type":"text","text":"UI Render","x":-273,"y":520,"width":286,"height":60,"color":"5"},
+		{"id":"5e837e2985792b29","type":"text","text":"Game Initialization","x":-300,"y":-480,"width":340,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"d1b543d887370249","fromNode":"346ab250ec4686db","fromSide":"bottom","toNode":"e7d301fc55b65606","toSide":"top"},
+		{"id":"9ac0e1df8a0796ac","fromNode":"e7d301fc55b65606","fromSide":"bottom","toNode":"c8c1e45bb4199ad4","toSide":"top"},
+		{"id":"ca105ea6581ee92c","fromNode":"ebd922f2651b8262","fromSide":"bottom","toNode":"36d36b4416a4c974","toSide":"top"},
+		{"id":"b112ef554781d21c","fromNode":"5711b5d545146e23","fromSide":"bottom","toNode":"152d4e61d5cd9833","toSide":"top"},
+		{"id":"6004a6949dbe23c0","fromNode":"152d4e61d5cd9833","fromSide":"bottom","toNode":"04792c6e8c057ff3","toSide":"top"},
+		{"id":"9815ee97aa095793","fromNode":"582d509d27d2b812","fromSide":"bottom","toNode":"3f3027b7213189df","toSide":"top"},
+		{"id":"67d73c9ddb188e84","fromNode":"36d36b4416a4c974","fromSide":"bottom","toNode":"0a7b87f8117aaa8d","toSide":"top"},
+		{"id":"bcdeffb8efba84ec","fromNode":"7eaf2004884d5258","fromSide":"bottom","toNode":"f93124520978ff68","toSide":"top"},
+		{"id":"bc287b480010f084","fromNode":"3f3027b7213189df","fromSide":"right","toNode":"236bb4aa8d7ffb5c","toSide":"bottom"},
+		{"id":"a0859802bb714822","fromNode":"236bb4aa8d7ffb5c","fromSide":"top","toNode":"ebd922f2651b8262","toSide":"right"},
+		{"id":"a22712b2e4379f70","fromNode":"5e837e2985792b29","fromSide":"bottom","toNode":"8d7aeb8bc74888d8","toSide":"top"}
+	]
+}

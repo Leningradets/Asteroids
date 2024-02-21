@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "4bd5ec7f027c3f88",
+    "type": "split",
+    "children": [
+      {
+        "id": "25ecb1638bc1050a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74b1e583fd8acbfe",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Diagramm.canvas",
+                "viewState": {
+                  "x": 393.48038510575236,
+                  "y": 163.41430860807378,
+                  "zoom": -0.530889462828636
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8733fede1212f065",
+    "type": "split",
+    "children": [
+      {
+        "id": "20f77c18adf7148c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1fc2cf4aaa4201a3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "cc2ce8cab72135b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f1a6d5d997398e6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "676071240aa560b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7af391bda9dcbc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "74120b95a542f1bd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Diagramm.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "80b5ea8f5fc3664e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Diagramm.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "54adfab8b6a3fe0e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "64456edbebeb69ca",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Diagramm.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "74b1e583fd8acbfe",
+  "lastOpenFiles": [
+    "Diagramm.canvas",
+    "Diagramm.md",
+    "Welcome.md"
+  ]
+}

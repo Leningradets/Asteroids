@@ -1,0 +1,35 @@
+<mxfile host="app.diagrams.net" modified="2024-02-14T12:42:24.763Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 YaBrowser/24.1.0.0 Safari/537.36" etag="G2yOIn7W1deR-YUcfu7h" version="23.1.4" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="865" dy="477" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="5rZofUIUqRMALF9J-7sQ-9" value="Update Controller" style="swimlane;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="80" width="200" height="120" as="geometry">
+            <mxRectangle x="400" y="80" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rZofUIUqRMALF9J-7sQ-2" value="Update Input" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5rZofUIUqRMALF9J-7sQ-9">
+          <mxGeometry x="20" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZofUIUqRMALF9J-7sQ-10" value="Update Model" style="swimlane;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="250" width="200" height="140" as="geometry">
+            <mxRectangle x="400" y="240" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5rZofUIUqRMALF9J-7sQ-0" value="Update Physics" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5rZofUIUqRMALF9J-7sQ-10">
+          <mxGeometry x="20" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZofUIUqRMALF9J-7sQ-14" value="Update Game objects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5rZofUIUqRMALF9J-7sQ-10">
+          <mxGeometry x="20" y="90" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZofUIUqRMALF9J-7sQ-11" value="Update View" style="swimlane;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="400" y="450" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="5rZofUIUqRMALF9J-7sQ-5" value="Render" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="5rZofUIUqRMALF9J-7sQ-11">
+          <mxGeometry x="20" y="50" width="160" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
