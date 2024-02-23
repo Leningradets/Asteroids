@@ -7,7 +7,7 @@
 
 class Physics {
 public:
-    void Update(float deltaTimne);
+    void Update(float deltaTime);
     static void AddRigidbody(Rigidbody *rigidbody);
     static void RemoveRigidbody(Rigidbody *rigidbody);
 private:

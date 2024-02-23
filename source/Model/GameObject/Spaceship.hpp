@@ -6,8 +6,8 @@
 
 class Spaceship : public GameObject{
 public:
-    Spaceship() : Spaceship(Vector2D(), 0){};
-    Spaceship(Vector2D position, float rotation) : GameObject(position, rotation){};
+    Spaceship() : Spaceship(sf::Vector2f(), 0){};
+    Spaceship(sf::Vector2f position, float rotation) : GameObject(position, rotation){Awake();};
     void Awake() override;
 };
 

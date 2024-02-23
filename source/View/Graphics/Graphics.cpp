@@ -5,6 +5,7 @@
 std::vector<Renderer*> Graphics::renderers;
 
 void Graphics::Update(sf::RenderWindow& window) {
+
     for (auto& renderer : renderers) {
         renderer->Render(window);
     }

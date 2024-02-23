@@ -1,15 +1,15 @@
 #ifndef ASTEROIDS_TRANSFORM_HPP
 #define ASTEROIDS_TRANSFORM_HPP
 
-#include "Vector2D.hpp"
+#include <System/Vector2.hpp>
 
 class Transform {
 public:
     Transform();
-    Transform(const Vector2D &position, float rotation);
+    Transform(const sf::Vector2f &position, float rotation);
     Transform(float x, float y, float rotation);
-    Vector2D GetUp() const;
-    Vector2D position;
+    sf::Vector2f GetUp() const;
+    sf::Vector2f position;
     float rotation;
 };
 

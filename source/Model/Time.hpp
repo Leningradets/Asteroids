@@ -9,9 +9,13 @@ public:
     static float timeScale;
     static float deltaTime;
     static float realDeltaTime;
+    static void Start();
     static void Reset();
+    static float GetTime();
+    static float value;
 private:
-    static sf::Clock* clock;
+    static sf::Clock* frameClock;
+    static sf::Clock* gameClock;
 };
 
 

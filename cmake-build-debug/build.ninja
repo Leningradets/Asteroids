@@ -129,14 +129,6 @@ build CMakeFiles/Asteroids.dir/source/Model/Transform.cpp.obj: CXX_COMPILER__Ast
   OBJECT_DIR = CMakeFiles\Asteroids.dir
   OBJECT_FILE_DIR = CMakeFiles\Asteroids.dir\source\Model
 
-build CMakeFiles/Asteroids.dir/source/Model/Vector2D.cpp.obj: CXX_COMPILER__Asteroids_Debug D$:/My_Projects/C++/Asteroids/source/Model/Vector2D.cpp || cmake_object_order_depends_target_Asteroids
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\Asteroids.dir\source\Model\Vector2D.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always
-  INCLUDES = -IC:/SFML/include/SFML -isystem C:/SFML/include
-  OBJECT_DIR = CMakeFiles\Asteroids.dir
-  OBJECT_FILE_DIR = CMakeFiles\Asteroids.dir\source\Model
-
 build CMakeFiles/Asteroids.dir/source/Model/Component/Phisics/Rigidbody.cpp.obj: CXX_COMPILER__Asteroids_Debug D$:/My_Projects/C++/Asteroids/source/Model/Component/Phisics/Rigidbody.cpp || cmake_object_order_depends_target_Asteroids
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\Asteroids.dir\source\Model\Component\Phisics\Rigidbody.cpp.obj.d
@@ -209,6 +201,30 @@ build CMakeFiles/Asteroids.dir/source/Model/Time.cpp.obj: CXX_COMPILER__Asteroid
   OBJECT_DIR = CMakeFiles\Asteroids.dir
   OBJECT_FILE_DIR = CMakeFiles\Asteroids.dir\source\Model
 
+build CMakeFiles/Asteroids.dir/source/Model/GameObject/Asteroid.cpp.obj: CXX_COMPILER__Asteroids_Debug D$:/My_Projects/C++/Asteroids/source/Model/GameObject/Asteroid.cpp || cmake_object_order_depends_target_Asteroids
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\Asteroids.dir\source\Model\GameObject\Asteroid.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/SFML/include/SFML -isystem C:/SFML/include
+  OBJECT_DIR = CMakeFiles\Asteroids.dir
+  OBJECT_FILE_DIR = CMakeFiles\Asteroids.dir\source\Model\GameObject
+
+build CMakeFiles/Asteroids.dir/source/View/Graphics/Screen.cpp.obj: CXX_COMPILER__Asteroids_Debug D$:/My_Projects/C++/Asteroids/source/View/Graphics/Screen.cpp || cmake_object_order_depends_target_Asteroids
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\Asteroids.dir\source\View\Graphics\Screen.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/SFML/include/SFML -isystem C:/SFML/include
+  OBJECT_DIR = CMakeFiles\Asteroids.dir
+  OBJECT_FILE_DIR = CMakeFiles\Asteroids.dir\source\View\Graphics
+
+build CMakeFiles/Asteroids.dir/source/Model/Random.cpp.obj: CXX_COMPILER__Asteroids_Debug D$:/My_Projects/C++/Asteroids/source/Model/Random.cpp || cmake_object_order_depends_target_Asteroids
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\Asteroids.dir\source\Model\Random.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -IC:/SFML/include/SFML -isystem C:/SFML/include
+  OBJECT_DIR = CMakeFiles\Asteroids.dir
+  OBJECT_FILE_DIR = CMakeFiles\Asteroids.dir\source\Model
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Asteroids
@@ -217,7 +233,7 @@ build CMakeFiles/Asteroids.dir/source/Model/Time.cpp.obj: CXX_COMPILER__Asteroid
 #############################################
 # Link the executable Asteroids.exe
 
-build Asteroids.exe: CXX_EXECUTABLE_LINKER__Asteroids_Debug CMakeFiles/Asteroids.dir/source/main.cpp.obj CMakeFiles/Asteroids.dir/source/Game.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Model.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Physics/Physics.cpp.obj CMakeFiles/Asteroids.dir/source/Controller/Input.cpp.obj CMakeFiles/Asteroids.dir/source/Controller/Controller.cpp.obj CMakeFiles/Asteroids.dir/source/View/View.cpp.obj CMakeFiles/Asteroids.dir/source/View/Graphics/Graphics.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Graphics/CircleRenderer.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Transform.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Vector2D.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Phisics/Rigidbody.cpp.obj CMakeFiles/Asteroids.dir/source/Model/GameObject/GameObject.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Graphics/Renderer.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Graphics/DrawableRenderer.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Component.cpp.obj CMakeFiles/Asteroids.dir/source/Model/GameObject/Spaceship.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Graphics/LinesRenderer.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Move.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Time.cpp.obj | C$:/SFML/lib/libsfml-system-s-d.a C$:/SFML/lib/libsfml-window-s-d.a C$:/SFML/lib/libsfml-graphics-s-d.a C$:/SFML/lib/libsfml-audio-s-d.a C$:/SFML/lib/libsfml-window-s-d.a C$:/SFML/lib/libfreetype.a C$:/SFML/lib/libsfml-system-s-d.a C$:/SFML/lib/libopenal32.a C$:/SFML/lib/libvorbisfile.a C$:/SFML/lib/libvorbisenc.a C$:/SFML/lib/libvorbis.a C$:/SFML/lib/libogg.a C$:/SFML/lib/libFLAC.a
+build Asteroids.exe: CXX_EXECUTABLE_LINKER__Asteroids_Debug CMakeFiles/Asteroids.dir/source/main.cpp.obj CMakeFiles/Asteroids.dir/source/Game.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Model.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Physics/Physics.cpp.obj CMakeFiles/Asteroids.dir/source/Controller/Input.cpp.obj CMakeFiles/Asteroids.dir/source/Controller/Controller.cpp.obj CMakeFiles/Asteroids.dir/source/View/View.cpp.obj CMakeFiles/Asteroids.dir/source/View/Graphics/Graphics.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Graphics/CircleRenderer.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Transform.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Phisics/Rigidbody.cpp.obj CMakeFiles/Asteroids.dir/source/Model/GameObject/GameObject.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Graphics/Renderer.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Graphics/DrawableRenderer.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Component.cpp.obj CMakeFiles/Asteroids.dir/source/Model/GameObject/Spaceship.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Graphics/LinesRenderer.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Component/Move.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Time.cpp.obj CMakeFiles/Asteroids.dir/source/Model/GameObject/Asteroid.cpp.obj CMakeFiles/Asteroids.dir/source/View/Graphics/Screen.cpp.obj CMakeFiles/Asteroids.dir/source/Model/Random.cpp.obj | C$:/SFML/lib/libsfml-system-s-d.a C$:/SFML/lib/libsfml-window-s-d.a C$:/SFML/lib/libsfml-graphics-s-d.a C$:/SFML/lib/libsfml-audio-s-d.a C$:/SFML/lib/libsfml-window-s-d.a C$:/SFML/lib/libfreetype.a C$:/SFML/lib/libsfml-system-s-d.a C$:/SFML/lib/libopenal32.a C$:/SFML/lib/libvorbisfile.a C$:/SFML/lib/libvorbisenc.a C$:/SFML/lib/libvorbis.a C$:/SFML/lib/libogg.a C$:/SFML/lib/libFLAC.a
   FLAGS = -g
   LINK_LIBRARIES = C:/SFML/lib/libsfml-system-s-d.a  C:/SFML/lib/libsfml-window-s-d.a  C:/SFML/lib/libsfml-graphics-s-d.a  C:/SFML/lib/libsfml-audio-s-d.a  C:/SFML/lib/libsfml-window-s-d.a  -lOpenGL32  -lgdi32  C:/SFML/lib/libfreetype.a  C:/SFML/lib/libsfml-system-s-d.a  -lwinmm  C:/SFML/lib/libopenal32.a  C:/SFML/lib/libvorbisfile.a  C:/SFML/lib/libvorbisenc.a  C:/SFML/lib/libvorbis.a  C:/SFML/lib/libogg.a  C:/SFML/lib/libFLAC.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Asteroids.dir

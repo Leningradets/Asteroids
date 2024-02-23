@@ -10,11 +10,8 @@ class Game {
 public:
     explicit Game(sf::RenderWindow &window);
     void Initialize();
-
     virtual ~Game();
-
     void Run();
-
 private:
     sf::RenderWindow& window;
     Controller* controller;

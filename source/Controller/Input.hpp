@@ -5,8 +5,8 @@
 class Input {
 public:
     static void Update(sf::RenderWindow& window);
-    static int VerticalAxis;
-    static int HorizontalAxis;
+    static float VerticalAxis;
+    static float HorizontalAxis;
 };
 
 

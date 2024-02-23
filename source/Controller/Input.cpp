@@ -1,7 +1,7 @@
 #include "Input.hpp"
 
-int Input::VerticalAxis;
-int Input::HorizontalAxis;
+float Input::VerticalAxis;
+float Input::HorizontalAxis;
 
 void Input::Update(sf::RenderWindow& window) {
     sf::Event event;

@@ -2,19 +2,26 @@
 #include "../../Time.hpp"
 #include "../../Physics/Physics.hpp"
 
-Rigidbody::Rigidbody(float mass) : Component(), mass(mass){
+
+
+Rigidbody::Rigidbody(float mass) : Rigidbody(mass, 0){}
+
+Rigidbody::Rigidbody(float mass, float drag) : Component(), mass(mass), drag(drag){
     Physics::AddRigidbody(this);
 }
+
 
 void Rigidbody::PhysicsUpdate(float deltaTime) {
     if(gameObject){
         gameObject->transform->position += velocity * deltaTime;
         gameObject->transform->rotation += angularVelocity * deltaTime;
     }
+    velocity *= 1 - (drag * deltaTime);
+    angularVelocity *= 1 - (drag * deltaTime);
 }
 
-void Rigidbody::AddForce(Vector2D force, ForceType type) {
-    Vector2D appliedForce;
+void Rigidbody::AddForce(sf::Vector2f force, ForceType type) {
+    sf::Vector2f appliedForce;
 
     switch (type) {
         case ForceType::Force:

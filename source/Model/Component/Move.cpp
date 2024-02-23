@@ -3,8 +3,6 @@
 #include "Phisics/Rigidbody.hpp"
 
 void Move::Update(float deltaTime) {
-    auto* rigidbody = gameObject->GetComponent<Rigidbody>();
-
     if(rigidbody == nullptr)
         return;
 
@@ -13,3 +11,8 @@ void Move::Update(float deltaTime) {
 }
 
 Move::Move(float force, float torque) : force(force), torque(torque) {}
+
+void Move::Start() {
+    rigidbody  = gameObject->GetComponent<Rigidbody>();
+}
+

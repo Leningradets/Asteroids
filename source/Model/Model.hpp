@@ -8,6 +8,9 @@ public:
     Model();
     void Update(float deltaTime);
     virtual ~Model();
+
+    void Start();
+
 private:
     Physics* physics;
 };

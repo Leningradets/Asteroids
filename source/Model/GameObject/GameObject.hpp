@@ -2,6 +2,7 @@
 #define ASTEROIDS_GAMEOBJECT_HPP
 
 #include <vector>
+#include <System/Vector2.hpp>
 #include "../Transform.hpp"
 #include "../Component/Component.hpp"
 
@@ -9,9 +10,10 @@ class Component;
 class GameObject {
 public:
     GameObject();
-    GameObject(Vector2D position, float rotation);
+    GameObject(sf::Vector2f position, float rotation);
     GameObject(float x, float y, float rotation);
     virtual ~GameObject();
+    static void StartGameObjects();
     static void UpdateGameObjects(float deltaTime);
 
     template<typename T>
@@ -27,6 +29,7 @@ public:
     void AddComponent(Component* component);
     void RemoveComponent(Component* component);
     virtual void Awake();
+    virtual void Start();
     virtual void Update(float deltaTime);
     static void DleteGameObjects();
     Transform* transform;

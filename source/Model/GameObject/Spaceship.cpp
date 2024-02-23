@@ -12,8 +12,7 @@ void Spaceship::Awake() {
     (*shape)[3] = sf::Vector2f(-20, 20);
     (*shape)[4] = sf::Vector2f(0, -30);
     this->AddComponent(new DrawableRenderer(shape));
-    this->AddComponent(new Move(100,1));
-    this->AddComponent(new Rigidbody(1));
-    transform->position = Vector2D(400,300);
+    this->AddComponent(new Move(100,3));
+    this->AddComponent(new Rigidbody(1, 0.05));
     GameObject::Awake();
 }

@@ -7,9 +7,13 @@ Model::Model() : physics()
     std::cout << "Model Created" << std::endl;
 }
 
-void Model::Update(float deltaTimne) {
-    physics->Update(deltaTimne);
-    GameObject::UpdateGameObjects(deltaTimne);
+void Model::Start() {
+    GameObject::StartGameObjects();
+}
+
+void Model::Update(float deltaTime) {
+    physics->Update(deltaTime);
+    GameObject::UpdateGameObjects(deltaTime);
 }
 
 Model::~Model() {

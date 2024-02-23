@@ -3,6 +3,7 @@
 #include "Game.hpp"
 #include "Model/GameObject/Spaceship.hpp"
 #include "Model/Time.hpp"
+#include "Model/GameObject/Asteroid.hpp"
 
 Game::Game(sf::RenderWindow &window) : window(window) {
     std::cout << "Game created" << std::endl;
@@ -13,15 +14,18 @@ void Game::Initialize() {
     controller = new Controller(window);
     model = new Model();
     view = new View(window);
-    Spaceship* spaceship = new Spaceship();
-    spaceship->Awake();
+    auto* spaceship = new Spaceship(sf::Vector2f(400,300),0);
+    for (int i = 0; i < 7; ++i) {
+        new Asteroid();
+    }
     std::cout << "Game Initialized" << std::endl;
 }
 
 void Game::Run() {
     std::cout << "Run Game!" << std::endl;
 
-    Time::Reset();
+    model->Start();
+    Time::Start();
     while (window.isOpen())
     {
         Time::Reset();

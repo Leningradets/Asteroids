@@ -7,6 +7,7 @@
 class GameObject;
 class Component {
 public:
+    virtual void Awake(){};
     virtual void Start(){};
     virtual void Update(float deltaTime){};
     void SetGameObject(GameObject* gameObject);

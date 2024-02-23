@@ -1,7 +1,10 @@
 #include <iostream>
 #include "View.hpp"
+#include "Graphics/Screen.hpp"
+#include "../Model/Time.hpp"
 
 View::View(sf::RenderWindow &window) : window(window) {
+    Screen::size = window.getSize();
     std::cout << "View Created" << std::endl;
 }
 

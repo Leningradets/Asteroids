@@ -3,9 +3,9 @@
 
 std::vector<Rigidbody*> Physics::rigidbodies;
 
-void Physics::Update(float deltaTimne) {
+void Physics::Update(float deltaTime) {
     for (auto* rigidbody: rigidbodies) {
-        rigidbody->PhysicsUpdate(deltaTimne);
+        rigidbody->PhysicsUpdate(deltaTime);
     }
 }
 

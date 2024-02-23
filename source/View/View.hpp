@@ -15,6 +15,9 @@ private:
     sf::RenderWindow& window;
     void UpdateGraphics();
     void UpdateAudio();
+
+    sf::Shader shader;
+    sf::RectangleShape shape;
 };
 
 
